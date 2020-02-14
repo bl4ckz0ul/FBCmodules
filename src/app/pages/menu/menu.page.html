@@ -7,8 +7,13 @@
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <ion-content>
+  <ion-content fullscreen>
+    <ion-card>
+      <img src="assets/shapes.svg" />
+      <ion-card-header>
+        <ion-card-title>Menu</ion-card-title>
+      </ion-card-header>
+    </ion-card>
     <div *ngFor="let p of pages">
       <ion-menu-toggle *ngIf="p.url">
         <ion-item
