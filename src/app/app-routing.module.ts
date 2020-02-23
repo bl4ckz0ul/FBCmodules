@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: "menu",
     loadChildren: "./pages/menu/menu.module#MenuPageModule"
+  },
+  {
+    path: 'mod1',
+    loadChildren: () => import('./pages/modules/mod1/mod1.module').then( m => m.Mod1PageModule)
   }
 ];
 
