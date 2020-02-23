@@ -19,12 +19,12 @@ export class MenuPage implements OnInit {
         {
           title: 'Theme',
           url: '/menu/settings',
-          icon: 'logo-ionic'
+          icon: 'color-palette'
         },
         {
           title: 'About',
           url: '/menu/about',
-          icon: 'logo-google'
+          icon: 'at-circle'
         }
 
       ]
